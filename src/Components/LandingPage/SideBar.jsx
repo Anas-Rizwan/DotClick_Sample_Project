@@ -13,8 +13,8 @@ export const SideBar = () => {
                 </ul>
                 <div className='side_bottom'>
                     <button className='side_bottom_btn'>Log-Out</button>
-                    <h6 style={{ margin: '8px', color: '#494949' }}>Help Desk</h6>
-                    <h6 style={{ marginTop: '5px', color: '#494949' }}>786-874 9988</h6>
+                    <h6 className='side_bottom_text' >Help Desk</h6>
+                    <h6  className='side_bottom_text'>786-874 9988</h6>
                 </div>
             </div>
         </div>

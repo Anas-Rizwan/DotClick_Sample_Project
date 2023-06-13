@@ -4,6 +4,7 @@ import './Card.css'
 
 const Card = ({
     imgsrc,
+    imgtext,
     heading,
     singlePrice,
     doublePrice,
@@ -12,8 +13,8 @@ const Card = ({
     return (
         <div className='card_div'>
             <div className='card_img_div'>
-                <img src="src\assets\Holiday.png" alt="Image description" className='card_img' />
-                <h6 className='card_img_text'>{imgsrc}</h6>
+                <img src={imgsrc} alt="Image description" className='card_img' />
+                <h6 className='card_img_text'>{imgtext}</h6>
             </div>
             <div className='card_bottom_div'>
                 <h6 className='card_bottom_heading'>{heading}</h6>

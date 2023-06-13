@@ -1,7 +1,9 @@
 import React from 'react'
 import Card from '../Reuseable_component/Card'
+import imgpath from '../../assets/Holiday.png'
 
 const SecondBox = () => {
+    // const imgpath = '../../assets/Holiday.png'
     return (
         <div className='content_secondbox_div'>
             <div style={{ display: 'flex', }}>
@@ -52,21 +54,24 @@ const SecondBox = () => {
 
             <div className='card_main_div'>
                 <Card
-                    imgsrc={'Holiday Inn'}
+                    imgsrc={imgpath}
+                    imgtext={'Holiday Inn'}
                     heading={'1.5 miles away from joblocation. '}
                     singlePrice={'Singles: $120'}
                     doublePrice={'Doubles: $145'}
                     btntext={'Book now'}
                 />
                 <Card
-                    imgsrc={'Holiday Inn'}
+                    imgsrc={imgpath}
+                    imgtext={'Holiday Inn'}
                     heading={'1.5 miles away from joblocation. '}
                     singlePrice={'Singles: $120'}
                     doublePrice={'Doubles: $145'}
                     btntext={'Book now'}
                 />
                 <Card
-                    imgsrc={'Holiday Inn'}
+                    imgsrc={imgpath}
+                    imgtext={'Holiday Inn'}
                     heading={'1.5 miles away from joblocation. '}
                     singlePrice={'Singles: $120'}
                     doublePrice={'Doubles: $145'}
